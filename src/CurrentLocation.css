@@ -1,0 +1,24 @@
+.Current-location {
+    position: relative;
+    text-align: right;
+    top: -30px;
+    left: 750px;
+    width: 200px;
+  }
+  
+  .Current-location-button {
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgb(99, 99, 99);
+    background-color: rgb(156, 115, 245);
+    color: #fff;
+    border-radius: 4px;
+    padding-left: 10px;
+    opacity: 70%;
+    cursor: pointer;
+  }
+  
+  .Current-location-button:hover {
+    transform: scale(1.1);
+  }
+  

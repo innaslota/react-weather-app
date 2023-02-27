@@ -1,0 +1,14 @@
+.Image {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .Weather-image {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: -20px;
+    z-index: 2;
+  }
+  

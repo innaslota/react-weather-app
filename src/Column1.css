@@ -1,0 +1,14 @@
+.Column1 {
+    display: inline-flex;
+    height: 300px;
+    grid-row: auto;
+  }
+  
+  .Column1 {
+    width: 30%;
+  }
+  
+  .Column1 {
+    margin-left: 50px;
+  }
+  

@@ -1,0 +1,10 @@
+.Column2 {
+    display: inline-flex;
+    height: 300px;
+    grid-row: auto;
+  }
+  
+  .Column2 {
+    width: 40%;
+  }
+  

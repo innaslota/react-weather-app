@@ -1,0 +1,53 @@
+.Temperature {
+    margin-top: 30px;
+    margin-left: 40px;
+    z-index: 3;
+  }
+  
+  .Description {
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 35px;
+    text-align: right;
+    font-size: 14px;
+  }
+  
+  .Description::first-letter {
+    text-transform: capitalize;
+  }
+  
+  .Current-temperature {
+    font-size: 170px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: "Anybody", cursive;
+  }
+  
+  .Feels-like {
+    position: relative;
+    top: -30px;
+    margin: 0;
+    text-align: right;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .Unity {
+    cursor: pointer;
+  }
+  
+  .Unity:hover {
+    color: rgba(255, 51, 51, 0.696);
+    font-weight: 700;
+  }
+  
+  .active:hover {
+    cursor: default;
+    color: #fff;
+    font-weight: 300;
+  }
+  

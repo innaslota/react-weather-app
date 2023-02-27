@@ -1,0 +1,17 @@
+.Header {
+    text-align: center;
+  }
+  
+  .City-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 500;
+  }
+  
+  .Current-date {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  

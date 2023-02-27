@@ -1,0 +1,15 @@
+.Container {
+    width: 1000px;
+    border: 1px solid #000;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.393),
+        rgba(22, 60, 142, 0.33)
+      ),
+      url(Kyiv.jpg);
+  
+    background-size: cover;
+  }
+  
