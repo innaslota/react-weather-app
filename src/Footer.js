@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <small>
       <a
-        href="https://github.com/innaslota/weather-app"
+        href="https://github.com/innaslota/react-weather-app"
         target="_blank"
         className="reference"
       >
