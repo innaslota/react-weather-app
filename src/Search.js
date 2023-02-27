@@ -34,7 +34,7 @@ export default function Search() {
           autocomplete="off"
           onChange={updateCity}
         />
-        <input type="image" src="images/search.png" class="Search-icon" />
+        <input type="image" alt="submit" src="images/search.png" class="Search-icon" />
       </form>
       <p>{paragraph}</p>
     </div>
