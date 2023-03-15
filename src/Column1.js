@@ -5,7 +5,7 @@ import Temperature from "./Temperature";
 export default function Column1() {
   return (
     <div className="Column1">
-      <Temperature />
+      <Temperature defaultCity="Kyiv"/>
     </div>
   );
 }

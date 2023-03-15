@@ -12,7 +12,7 @@ export default function Container() {
     <div className="Container">
       <Search />
       <CurrentLocation />
-      <Header />
+      <Header defaultCity="Kyiv"/>
       <Row />
       <WeatherForecast />
       <Footer />

@@ -5,7 +5,7 @@ import Image from "./Image";
 export default function Column1() {
   return (
     <div className="Column2">
-      <Image />
+      <Image defaultCity="Kyiv" />
     </div>
   );
 }

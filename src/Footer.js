@@ -9,7 +9,7 @@ export default function Footer() {
         className="reference"
         rel="noreferrer"
       >
-        Open-source code
+        Open-source code 
       </a>
       by Inna Slota
     </small>

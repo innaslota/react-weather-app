@@ -5,7 +5,7 @@ import Details from "./Details";
 export default function Column3() {
   return (
     <div className="Column3">
-      <Details />
+      <Details defaultCity="Kyiv"/>
     </div>
   );
 }
