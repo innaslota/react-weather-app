@@ -15,7 +15,7 @@ export default function Container(props) {
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       feelsLike: response.data.main.feels_like,
-      iconURL: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      icon: response.data.weather[0].icon,
       humidity: response.data.main.humidity,
       presure: response.data.main.pressure,
       wind: response.data.wind.speed,

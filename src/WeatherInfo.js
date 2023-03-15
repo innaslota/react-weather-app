@@ -1,4 +1,5 @@
 import React from "react";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
     function formatDate(timestamp) {
@@ -66,12 +67,7 @@ export default function WeatherInfo(props) {
             </div>
             <div className="Column2">
               <div className="Image">
-              <img
-                src={props.data.iconURL}
-                alt="Weather condition"
-                className="Weather-image"
-                id="icon"
-              />
+              <WeatherIcon code={props.data.icon}/>
               </div>
             </div>
             <div className="Column3">
