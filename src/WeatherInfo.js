@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
     function formatDate(timestamp) {
@@ -45,25 +46,7 @@ export default function WeatherInfo(props) {
           </div>
           <div className="Row">
             <div className="Column1">
-              <div className="Temperature">
-                  <p className="Description" id="description">{props.data.description}</p>
-                  <h3 className="Current-temperature">
-                    <span id="current-temperature">{Math.round(props.data.temperature)}</span>°
-                  </h3>
-                  <h4 className="Feels-like">
-                    <span className="Unity active" id="celsius">
-                      C
-                    </span>
-                    /
-                    <span className="Unity" id="fahrenheit">
-                      F
-                    </span>
-                    <strong>
-                      <span id="feels-like-temp">{Math.round(props.data.feelsLike)}</span>°
-                    </strong>
-                    feels
-                  </h4>
-              </div>
+              <WeatherTemperature celsius={props.data}/>
             </div>
             <div className="Column2">
               <div className="Image">

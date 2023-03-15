@@ -146,12 +146,12 @@
     cursor: pointer;
   }
   
-  .Unity:hover {
+ .Unity:hover {
     color: rgba(255, 51, 51, 0.696);
     font-weight: 700;
   }
   
-  .active:hover {
+  .Unity:hover {
     cursor: default;
     color: #fff;
     font-weight: 300;
