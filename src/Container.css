@@ -172,6 +172,12 @@
     margin: 0 auto;
     width: 100%;
   }
+
+  canvas {
+    padding-left: 40px;
+    margin: 0 auto;
+    width: 75%;
+  }
   
   .Weather-image {
     display: block;
